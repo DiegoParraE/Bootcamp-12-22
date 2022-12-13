@@ -1,0 +1,116 @@
+@import'./normalize.css';
+
+
+.menu{
+    background-image: url(/img/fondo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: initial;
+    min-height: 600px;
+    height: 53vh;
+    position: relative;
+    border-radius: 0px 250px 0px 250px;
+}
+header{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+/* .menu::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(0deg, rgba(249, 249, 249, 0.154) 10%, #c7b1b161 90%);
+  } */
+.menu nav ul{
+    display: flex;
+    gap: 20px;
+}
+.menu nav ul a{
+    color: rgba(0, 0, 0, 0.851);
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+.logo{
+    width: 300px;
+    height: 200px;
+}
+.titulo{
+    margin: 0  auto;
+    margin-top: 90px;
+    width: 100%;
+    max-width: 15%;
+    position: relative;
+    color: #000000ca;
+    
+}
+h1{
+    font-weight: 100;
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    text-align: center;
+}
+.cuerpo1{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(153, 205, 50, 0.639);
+}
+article{
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+.articulo1 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 39% 66% 61% 40% / 64% 42% 59% 38%  ;
+    animation-name: anime;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+    
+}
+.articulo2 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 39% 66% 61% 40% / 64% 42% 59% 38%  ;
+    animation-name: anime2;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+}
+.articulo3 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 39% 66% 61% 40% / 64% 42% 59% 38%  ;
+    animation-name: anime3;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+}
+h2{
+    padding: 0 20px;
+    font-size: 40px;
+    text-align:justify;
+    line-height: 70px;
+}
+article p{ 
+    font-size: 25px;
+    margin: 0;    
+}
+footer{
+    background-image: url(/img/fondo.jpeg); 
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
