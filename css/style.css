@@ -1,4 +1,4 @@
-@import'./normalize.css';
+@import'/css/normalize.css';
 
 
 .menu{
@@ -6,8 +6,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: initial;
-    min-height: 600px;
-    height: 53vh;
+    min-height: 500px;
+    height: 33vh;
     position: relative;
     border-radius: 0px 250px 0px 250px;
 }
@@ -18,12 +18,7 @@ header{
     flex-wrap: wrap;
     align-items: center;
 }
-/* .menu::before{
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(0deg, rgba(249, 249, 249, 0.154) 10%, #c7b1b161 90%);
-  } */
+
 .menu nav ul{
     display: flex;
     gap: 20px;
@@ -105,12 +100,19 @@ h2{
 }
 article p{ 
     font-size: 25px;
-    margin: 0;    
+    margin: 0;  
 }
-footer{
-    background-image: url(/img/fondo.jpeg); 
-   
-    background-repeat: no-repeat;
+.footer{
+    background-image: url(/img/fondo.jpeg);
     background-size: cover;
-    background-position: center;
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 200px;
+}
+.footer p{
+    color: black;
+    font-size: 30px;
+    font-weight: bolder;
 }

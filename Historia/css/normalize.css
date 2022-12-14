@@ -1,0 +1,19 @@
+@import'/Historia/css/style.css';
+
+
+body {
+    margin: 0;
+    background-color: bisque;
+    font-family: sans-serif;
+}
+img {
+    border-style: none;
+}
+a{
+    text-decoration: none;
+}
+  
+ul{
+    list-style: none;
+    padding-left: 0;
+}
